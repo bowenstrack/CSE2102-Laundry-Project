@@ -1,5 +1,5 @@
 
-public class WashingMachine 
+public class Appliance 
 {
 	private double _Timer;
 	private int _IDNumber;
@@ -34,7 +34,7 @@ public class WashingMachine
 	{
 		_Working = working;
 	}
-	public WashingMachine(int ID, boolean availability, boolean working)
+	public Appliance(int ID, boolean availability, boolean working)
 	{
 		_IDNumber = ID;
 		_Availability = availability;
